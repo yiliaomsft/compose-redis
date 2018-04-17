@@ -1,11 +1,8 @@
 version: '3'
 services:
   web:
-#    build: .
     image: yiliao/compose-redis:v1
     ports:
-     - "5000:5000"
-    volumes:
-     - .:/code
+     - "8080:8080"
   redis:
     image: "redis:alpine"
