@@ -3,6 +3,6 @@ services:
   web:
     image: yiliao/compose-redis:v1
     ports:
-     - "8080:8080"
+     - "80:5000"
   redis:
     image: "redis:alpine"
