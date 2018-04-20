@@ -1,7 +1,7 @@
 version: '3'
 services:
   web:
-    image: yiliao/compose-redis:v1
+    image: yiliao/compose-redis:v2
     ports:
      - "80:80"
   redis:
