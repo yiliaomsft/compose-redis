@@ -23,7 +23,7 @@ def get_hit_count():
 @app.route('/')
 def hello():
     count = get_hit_count()
-    return 'Hello from Docker! I have been seen {} times.\n'.format(count)
+    return 'Hello from Azure App Service team! I have been seen {} times.\n'.format(count)
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=80, debug=True)
