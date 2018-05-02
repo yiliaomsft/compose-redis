@@ -1,7 +1,8 @@
 version: '3'
 services:
   web:
-    image: yiliao/compose-redis:v2
+    image: "appsvcsample/flaskapp"
+    # source code for this image repoe come from "Get started with Docker Compose" on docker.com
     ports:
      - "80:80"
   redis:
